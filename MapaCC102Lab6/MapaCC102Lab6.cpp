@@ -37,6 +37,7 @@ void input(int num, students s[]){
                     }
             }
         }while(status == true);
+        
         cout << "Input Name: ";
         getline(cin, s[i].name);
         cout << "Input Course: ";
@@ -98,7 +99,7 @@ int main () {
         cin.ignore();
 
         students s[num];
-        
+
         input(num, s);
         display (num, s);
 

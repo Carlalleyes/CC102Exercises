@@ -1,3 +1,6 @@
+//Mapa, Carl Marcel 0.
+//BSCS - 1B
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
@@ -10,7 +13,7 @@ struct students{
     
 };
 
-void DetailsInput(int num, students s[]){
+void input(int num, students s[]){
     system("cls");
     int j;
     bool status = true;
@@ -95,7 +98,8 @@ int main () {
         cin.ignore();
 
         students s[num];
-        DetailsInput(num, s);
+        
+        input(num, s);
         display (num, s);
 
         cout << "Try again?[y/n]: ";
